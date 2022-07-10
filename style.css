@@ -1,0 +1,193 @@
+* {
+    font-family: 'Lucida Sans Typewriter', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+header, footer, .section1 {
+    background-color: #1F2937;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+}
+.CTA {
+    background-color: #3B82F6;
+}
+
+body, header, footer, ul, .main, .section1, .section2, .section3, .section4, .cards {
+    display:flex;
+}
+
+body {
+    flex-direction: column;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    gap:25px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.logo{
+    color:white;
+}
+
+.section1 img {
+    width:500px;
+    height:230px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: whitesmoke;
+}
+
+.main {
+    flex-direction: column;
+}
+
+.card img {
+    width:150px;
+    height:150px;
+    border-radius: 10px;
+}
+
+.card {
+    width:150px;
+    height:350px;
+}
+
+.section2 {
+    flex-direction: column;
+    align-items: center;
+    color:#1F2937;
+}
+
+.cards {
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+.cards p {
+    text-align: center;
+    margin-top: 10px;
+}
+.headline {
+    padding:30px;
+}
+
+header, .section1 {
+    padding:20px 15% 50px 15%;
+}
+
+.hero {
+    font-size: 35px;
+    color: white;
+}
+
+.section1 p {
+    color:white;
+}
+
+ button {
+    background-color: #3B82F6;
+    border-radius: 6px;
+    width: 120px;
+    height:25px;
+    color: white;
+    border-style:hidden;
+ }
+
+ .section1-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ }
+
+ .section1-right {
+    margin-left: auto;
+ }
+
+ .section1 {
+    gap:10px;
+ }
+
+ .section3 {
+    flex-direction: column;
+    align-items: center;
+    color:#1F2937;
+ }
+
+ .quote {
+    font-style: italic;
+    width: 700px;
+ }
+ .section3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+.section3 p {
+    align-self: flex-end;
+}
+
+.section2, .section3 {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.section4 {
+    justify-content: center;
+    padding: 80px 20% 80px 20%;
+}
+
+.CTA {
+    padding:20px 50px 20px 50px;
+    display:flex;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+    gap:30px;
+}
+
+.CTA .sign-up {
+    border-style:solid;
+    border-color: white;
+}
+
+footer {
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.s3content {
+    display:flex;
+    flex-direction: column;
+    width:700px;
+}
+
+.section1 button:hover {
+    border-style:solid;
+    border-color: white;
+    font-weight: 700;
+}
+
+.section4 button:hover {
+    border-color:none;
+    background-color: white;
+    color:#1F2937;
+    font-weight: 700;
+}
+
+.nav li:hover {
+    font-weight: 700;   
+}
